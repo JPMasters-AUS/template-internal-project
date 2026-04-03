@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+*.key
+credentials.json
+service-account.json
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+venv/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Editor files
+*.swp
+*~
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
